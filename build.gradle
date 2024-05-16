@@ -26,6 +26,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
     implementation 'org.springframework.boot:spring-boot-starter-data-rest'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+//    implementation 'io.springfox:springfox-boot-starter' // or the latest version
+//    implementation 'javax.servlet:javax.servlet-api'
+//    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui'
+//    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-api'
+//    implementation 'org.springdoc:springdoc-openapi-ui:1.6.11'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
